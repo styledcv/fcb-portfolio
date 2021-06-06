@@ -1,0 +1,56 @@
+/*element{
+	property: value;
+}*/
+html{
+	scroll-behavior: smooth;
+}
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1,h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+	color: white;
+}
+
+img {
+	height: 250px;
+	width: 250px;
+	border-radius: 200px
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+#landing {
+	margin-top: 12.5vh;
+	height: 55vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+}
+
+#gallery {
+	padding : 5vh 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 6px;
+}
+
+.tools {
+	border : 5px solid white;
+	width : 75%;
+	margin: 20px;
+	padding: 25px;
+	color: white;
+}
